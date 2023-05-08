@@ -1,0 +1,62 @@
+body{
+    /* background-color: #333; */
+    background: linear-gradient(to right, rgb(4, 73, 113), #333, rgb(4, 73, 113));
+    color: #fff;
+}
+.supplier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.supplier h1{
+    color: #fff;
+}
+
+.supplier .form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.supplier .form label{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 20%;
+    
+}
+
+.supplier .form input, .supplier .form select{
+    height: 40px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+}
+.supplier .form select option{
+    color: #000;
+}
+
+.supplier input[type='submit']{
+    background-color: rgb(110, 153, 229);
+    color: #000;
+}
+
+.supplier .search{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.supplier .search input{
+    height: 30px;
+    border: none;
+    outline: none;
+}

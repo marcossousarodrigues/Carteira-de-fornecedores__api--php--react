@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f1f1;
+}
+
+header{
+  z-index: 2;
+}
+header, header ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 80px;
+}
+
+header ul{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  /* border-bottom: 1px solid #777; */
+  background-color: rgb(4, 73, 113);
+  background: linear-gradient(to left, rgb(4, 73, 113), #333, rgb(4, 73, 113) );
+  border-bottom: 1px solid #666;
+}
+
+header ul li, header ul button{
+  list-style: none;
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+header ul li a, header ul button{
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  color: #f1f1f1;
+}
+
+header ul li a:hover{
+  color: rgb(136, 194, 236);
+}
+
+header ul li button:hover{
+  color: rgb(238, 156, 156);
+}
+
+h1{
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #111;
+}
+
+a{
+  text-decoration: none;
+  color: #222;
+  font-size: 1.2em;
+}
+
+#message{
+  color: rgb(243, 120, 120);
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}

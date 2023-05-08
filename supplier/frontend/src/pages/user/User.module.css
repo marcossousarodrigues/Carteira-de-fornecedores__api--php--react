@@ -1,0 +1,60 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.form h1{
+    color: #f1f1f1;
+}
+
+.form p{
+    color: red;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.form form label{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form form input, .form form a {
+    height: 35px;
+    line-height: 35px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #888;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.form form input[type='submit'], .form form a{
+    margin-top: 10px;
+    width: 100px;
+    background-color: rgb(19, 143, 232);
+    color: #000;
+    font-size: 1em;
+    border: none;
+    margin-right: 10px;
+}
+
+.form form .btns_user{
+    display: flex;
+    flex-direction: row;
+}
+
+.form form .btns_user .back{
+    background-color: rgb(35, 127, 239);
+}

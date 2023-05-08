@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Marcos Rodrigues",
+            "email": "marcosrodrigues3546@gmail.com"
+        }
+    ],
+    "require": {}
+}

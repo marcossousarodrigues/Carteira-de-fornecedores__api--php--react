@@ -1,0 +1,56 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.list h1{
+    color: #fff;
+}
+
+.list ul{
+    display: flex;
+    justify-content: center;
+}
+.list .head li{
+    height: 40px;
+    line-height: 40px;
+    background-color: #222;
+    margin: 0;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.list ul .right, .list ul .left{
+    display: flex;
+}
+
+.list ul .right{
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.list ul li{
+    list-style: none;
+    margin: 10px;
+    width: 100%;
+    border-bottom: 1px solid rgb(104, 156, 240);
+}
+
+.list ul li a{
+    padding: 5px;
+    border: 1px solid rgb(62, 145, 240);
+    margin-left: 5px;
+    color: #999;
+}
+.list ul li .edit{
+    color: rgb(83, 130, 239);
+}
+.list ul li .delete{
+    color: rgb(241, 127, 127);
+}
+
+.hidden{
+    visibility: hidden;
+}
